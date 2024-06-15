@@ -48,7 +48,7 @@ const acquireClient = async (options) => {
 	return client;
 };
 
-program.name("pb").description("CLI utils for pocketbase").version("0.0.1");
+program.name("pb").description("CLI utils for pocketbase").version("0.0.5");
 
 program
 	.option("-u, --url <url>", "URL", "http://127.0.0.1:8090")
