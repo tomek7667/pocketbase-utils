@@ -1,10 +1,10 @@
-import PocketBase from "pocketbase";
-import cliProgress from "cli-progress";
-import inquirer from "inquirer";
-import dotenv from "dotenv";
-import { Command } from "commander";
+const PocketBase = require("pocketbase/cjs");
+const cliProgress = require("cli-progress");
+const inquirer = require("inquirer");
+const dotenv = require("dotenv");
+const { Command } = require("commander");
 
-export const program = new Command();
+const program = new Command();
 
 const log = (args) => {
 	const { silent } = program.opts();
