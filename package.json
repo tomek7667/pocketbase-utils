@@ -1,0 +1,19 @@
+{
+	"name": "pocketbase-utils",
+	"type": "module",
+	"engines": {
+		"node": ">=20"
+	},
+	"bin": "pb.js",
+	"scripts": {
+		"pb": "node pb.js"
+	},
+	"engineStrict": true,
+	"dependencies": {
+		"cli-progress": "^3.12.0",
+		"commander": "^12.1.0",
+		"dotenv": "^16.4.5",
+		"inquirer": "^9.2.23",
+		"pocketbase": "^0.21.3"
+	}
+}
