@@ -21,7 +21,7 @@
 		"inquirer": "^9.2.23",
 		"pocketbase": "^0.21.3"
 	},
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"keywords": [
 		"pocketbase",
 		"utils",
