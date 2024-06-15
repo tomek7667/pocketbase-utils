@@ -5,7 +5,7 @@
 		"node": ">=20"
 	},
 	"bin": {
-		"pb": "./pb.js"
+		"pb": "pb.js"
 	},
 	"scripts": {
 		"pb": "node pb.js"
@@ -17,5 +17,6 @@
 		"dotenv": "^16.4.5",
 		"inquirer": "^9.2.23",
 		"pocketbase": "^0.21.3"
-	}
+	},
+	"version": "0.0.1"
 }
