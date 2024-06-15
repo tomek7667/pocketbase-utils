@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const PocketBase = require("pocketbase/cjs");
 const cliProgress = require("cli-progress");
 const inquirer = require("inquirer");

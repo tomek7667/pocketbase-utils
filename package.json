@@ -20,7 +20,7 @@
 		"inquirer": "^8.0.0",
 		"pocketbase": "^0.21.3"
 	},
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"keywords": [
 		"pocketbase",
 		"utils",
