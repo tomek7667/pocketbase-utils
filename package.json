@@ -4,7 +4,9 @@
 	"engines": {
 		"node": ">=20"
 	},
-	"bin": "pb.js",
+	"bin": {
+		"pb": "./pb.js"
+	},
 	"scripts": {
 		"pb": "node pb.js"
 	},
